@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+        <meta charset="UTF-8">
+        <title>Upload</title>
+        <meta name = 'viewport' content = 'width = device-width,initial-scale = 1,minimum-scale = 1, maximum-scale = 1, user-scalable = no'/>
+        <style>
+			body{
+			    background-image: url(/photo/b.jpg));
+				background-size:100% 100%;
+				background-attachment: fixed;
+			}
+			.container{
+				width: 100%;
+				text-align: center;
+				position: absolute;
+				top: 96px;
+			}
+			#content{
+                top: 150px;
+                position: relative;
+			}
+			.c1{
+			     border-radius:20px;
+			     font-weight: bold;
+			     background: #E6E6FA;
+			}
+			.c2{
+			    background: white;
+			    opacity:0.8;
+			}
+			.c{
+			    font-size: 50px;
+			    font-family: STCaiyun;
+
+			}
+		</style>
+</head>
+<h1 class="c" align="center" width="50%">请上传图片文件</h1>
+<form action="" method=post enctype=multipart/form-data>
+
+ <div id="content">
+         <p style="text-align: center">
+             <input type="file"  class="c2" name="file">
+         </p>
+         <p style="text-align: center">
+             <input type="submit" class="c1" value="Upload">
+         </p>
+    </div>
+</form>
